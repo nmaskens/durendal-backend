@@ -15,22 +15,44 @@
     "generate-random-key": "ts-node scripts/generateRandomKey.ts"
   },
   "dependencies": {
-    "@nomiclabs/hardhat-etherscan": "^2.1.4",
-    "@openzeppelin/contracts": "^4.1.0",
-    "dotenv": "^10.0.0"
+    "@openzeppelin/contracts": "^4.1.0"
   },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.0",
-    "@nomiclabs/hardhat-waffle": "^2.0.0",
-    "@typechain/ethers-v5": "^7.0.1",
-    "@typechain/hardhat": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "@typechain/ethers-v5": "^7.2.0",
+    "@typechain/hardhat": "^2.3.1",
+    "@types/jest": "^29.4.0",
     "@types/mocha": "^9.0.0",
-    "chai": "^4.2.0",
-    "ethereum-waffle": "^3.0.0",
+    "chai": "^4.3.7",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.4",
     "ethereumjs-wallet": "^1.0.2",
-    "ethers": "^5.0.0",
-    "hardhat": "^2.4.1",
-    "ts-node": "^10.8.1",
-    "typechain": "^5.0.0"
-  }
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.7",
+    "hardhat-contract-sizer": "^2.8.0",
+    "hardhat-deploy": "^0.11.23",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.8.4",
+    "prettier-plugin-solidity": "^1.1.2",
+    "solhint": "^3.3.8",
+    "solidity-coverage": "^0.8.2",
+    "ts-node": "^10.9.1",
+    "typechain": "^5.2.0",
+    "typescript": "^4.9.5"
+  },
+  "description": "```\r npm install @imtbl/imx-contracts\r ```",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immutable/imx-contracts.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/immutable/imx-contracts/issues"
+  },
+  "homepage": "https://github.com/immutable/imx-contracts#readme"
 }
